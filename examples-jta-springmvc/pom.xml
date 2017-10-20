@@ -64,6 +64,18 @@
 			<version>4.0.62-SNAPSHOT</version>
 		</dependency>
 		<dependency>
+			<groupId>com.atomikos</groupId>
+			<artifactId>logcloud-service</artifactId>
+			<version>4.0.62-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.atomikos</groupId>
+			<artifactId>logcloud-client</artifactId>
+			<version>4.0.62-SNAPSHOT</version>
+		</dependency>
+
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>

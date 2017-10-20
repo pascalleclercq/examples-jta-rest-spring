@@ -16,7 +16,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import com.atomikos.rest.api.Transaction;
-import com.atomikos.rest.participant.AtomikosRestPort;
+import com.atomikos.rest.spring.AtomikosRestPort;
 
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {

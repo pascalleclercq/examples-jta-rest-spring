@@ -19,7 +19,7 @@ import org.springframework.web.client.RestTemplate;
 import payment.Payment;
 
 import com.atomikos.icatch.jta.UserTransactionManager;
-import com.atomikos.rest.interceptor.TransactionAwareRestClientInterceptor;
+import com.atomikos.rest.spring.TransactionAwareRestClientInterceptor;
 
 public class EmbeddedTransactionManagerClient {
 	static String cardno = "card10";
