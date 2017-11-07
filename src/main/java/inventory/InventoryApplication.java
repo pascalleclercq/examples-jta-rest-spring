@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
 
+import com.atomikos.http.spring.rest.TransactionAwareRestContainerFilter;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
-import com.atomikos.rest.spring.TransactionAwareRestContainerFilter;
 
 @SpringBootApplication
 @PropertySource("classpath:inventory.properties")
@@ -23,6 +23,7 @@ public class InventoryApplication {
 	@Bean
 	public Filter transactionAwareRestContainerFilter() {
 		TransactionAwareRestContainerFilter compressFilter = new TransactionAwareRestContainerFilter();
+		
 	    return compressFilter;
 	}
 	

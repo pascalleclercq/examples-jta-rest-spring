@@ -15,8 +15,8 @@ import org.springframework.http.converter.HttpMessageNotWritableException;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.atomikos.rest.api.Transaction;
-import com.atomikos.rest.spring.AtomikosRestPort;
+import com.atomikos.http.api.Transaction;
+import com.atomikos.http.spring.rest.AtomikosRestPort;
 
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
